@@ -4,7 +4,7 @@
 
 > **Pre-release preview.** RoboFlywheel-Sim is under active development. The source code is not yet publicly available, and an open-source release is planned. Release details will be announced in this repository.
 
-![Cross-engine scene preview with Unitree G1 in Isaac Sim, MuJoCo, and Genesis](assets/cross-engine-simulation.png)
+![Cross-engine scene preview with Unitree G1 in Isaac Sim, MuJoCo, and Genesis](images/cross-engine-simulation.png)
 
 *A Unitree G1 scene shown in Isaac Sim, MuJoCo, and Genesis. Rendering appearance varies across engines.*
 
@@ -26,7 +26,7 @@ Our broader goal is to bring generated scenes and artist-authored assets into th
 
 ## Framework Overview
 
-![RoboFlywheel-Sim framework overview showing compiled and native execution paths, shared orchestration, and isolated engine workers](assets/architecture.png)
+![RoboFlywheel-Sim framework overview showing compiled and native execution paths, shared orchestration, and isolated engine workers](images/architecture.png)
 
 *RoboFlywheel-Sim connects scene and task authoring, simulation and control, and data and evaluation. Compiled scenes and native programs share experiment orchestration and an Engine Abstraction Layer (EAL), with each simulation backend hosted in an isolated worker process. Ray optionally schedules complete evaluation trials. Long-horizon tasks and sim-to-real transfer are planned research workflows.*
 
